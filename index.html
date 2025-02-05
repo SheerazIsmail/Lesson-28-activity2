@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1> Javascript Error Handling</h1>
+        <p> This Example Demonstrates hpw to use <b> catch</b> to dislay an error</p>
+
+        <p id="result"></p>
+
+        <script>
+            try {
+                addalert("hello");
+            }
+            catch(err) {
+                document.getElementById("result").innerHTML = err.message;
+            }
+        </script>
+    </body>
+</html>
